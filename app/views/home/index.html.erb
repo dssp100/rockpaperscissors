@@ -11,7 +11,8 @@
       <%= image_tag("rock left.png", class: "imgRock")%>
       <%= image_tag("scissors left.png", class: "imgScissors")%>
       <h1>Rock-Paper-Scissors</h1>
-      <p class="glow"> <span class="blink">PLAY</span> </p>
+
+      <p class="glow"> <span class="blink"><%= link_to 'play', simple_pages_about_path %>PLAY</span> </p>
     </div>
 
   </body>
